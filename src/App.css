@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  
+}
+
+.container{
+  background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/blog/play/bg_02.jpg');
+  background-size: 100%;
+  /* background-color: black; */
+  /* background-repeat: no-repeat;
+  height: calc(0.4925 * 100vw); */
+  display:flex;
+  justify-content: center;
+}
+
+#navbar{
+  background: rgb(40,45,50);
+  background: linear-gradient(90deg, rgba(40,45,50,1) 0%, rgba(37,47,49,1) 100%);
+  border-bottom: none;
+}
+
+.register-container{
+  width: 60%;
+  margin : 0;
+  background-color: white;
+  height: 60%;
+}
+
+/* justify-self: ตัวเอง; */
+/* justify-content: คอนเท้นข้างในกล่อง; */
+/* justify-items: ของโดยรวม; */
+
+/* align : แนวนอน */
