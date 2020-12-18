@@ -63,13 +63,13 @@ export default function Home(props) {
                                 <Row style={{ color: t, backgroundColor: c }} >
                                     <Col span={6}>
                                         <Row align="middle" style={{ height: "100%" }}>
-                                            <img src={x.img} style={{ width: "100%", alignSelf: "center" }} alt={x.id} />
+                                            <img src={x.image} style={{ width: "100%", alignSelf: "center" }} alt={x.name} />
                                         </Row>
                                     </Col>
                                     <Col span={14}>
                                         <h1 style={{ color: t }}>{x.name}</h1>
-                                        <p>{x.detail}</p>
-                                        <footer>Sites : <a href={"https://" + x.sites} style={{ color: "rgb(192, 75, 46)" }}>{x.sites}</a></footer>
+                                        <p>{x.content}</p>
+                                        <footer>Sites : <a href={x.contact} style={{ color: "rgb(192, 75, 46)" }}>{x.contact}</a></footer>
                                     </Col>
                                     <Col span={4} >
                                         <Row align="middle" style={{ height: "100%" }} justify="center">

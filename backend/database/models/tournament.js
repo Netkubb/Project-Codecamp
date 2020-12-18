@@ -7,10 +7,10 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING(5000)
         },
         contact: {
-            type: DataTypes.STRING(255)
+            type: DataTypes.STRING(5000)
         },
         image: {
-            type: DataTypes.STRING(255)
+            type: DataTypes.STRING(5000)
         }
     }, {
         tableName: "tournaments",
