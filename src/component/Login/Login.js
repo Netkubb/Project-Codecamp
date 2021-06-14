@@ -14,8 +14,9 @@ function Login(props) {
   ];
 
   async function onFinishHandle(value) {
+    console.log(process.env.REACT_APP_URL + " user/login");
     console.log(value);
-    let a = await axios.post(process.env.URL + "user/login", value);
+    let a = await axios.post(process.env.REACT_APP_URL + "user/login", value);
     console.log(a);
     if (a.data.err === true) {
       alert(a.data.message);

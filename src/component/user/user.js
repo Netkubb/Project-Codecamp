@@ -81,7 +81,7 @@ function User(props) {
                   <Col span={6}>
                     <Row align="middle" style={{ height: "100%" }}>
                       <img
-                        src={x.img}
+                        src={x.image}
                         style={{ width: "100%", alignSelf: "center" }}
                         alt={x.id}
                       />
@@ -89,14 +89,14 @@ function User(props) {
                   </Col>
                   <Col span={14}>
                     <h1 style={{ color: t }}>{x.name}</h1>
-                    <p>{x.detail}</p>
+                    <p>{x.content}</p>
                     <footer>
                       Sites :{" "}
                       <a
-                        href={"https://" + x.sites}
+                        href={"https://" + x.contact}
                         style={{ color: "rgb(192, 75, 46)" }}
                       >
-                        {x.sites}
+                        {x.contact}
                       </a>
                     </footer>
                   </Col>
